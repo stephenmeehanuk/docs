@@ -108,7 +108,7 @@ Fieldsets technically still exist, although they are now a smaller, companion fe
 ### Tags
 
 - `get_content`
-    - Now only accepts IDs, not URLs.
+    - Now only accepts IDs, not URLs. // This is wrong. https://statamic.dev/tags/get_content#overview get_content still accepts URLs using `from`
 - `get_values`
     - Removed. Use `get_content`.
 - `glide`
